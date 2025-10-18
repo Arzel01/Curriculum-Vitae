@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="stylesheet" href="assets/css/styles.css"> 
+  <meta name="description" content="Currículum Vitae de José Adrián Adrián Fierro, estudiante de ESPOL.">
+  <link rel="icon" href="assets/ico/cv.ico">
+</head>
+<body>
+
+  <header style="line-height: 2;">
+    <h1>José Andrés Adrián Fierro</h1>
+    <p>Estudiante de Ingeniería en Computación | ESPOL</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#tecnologias">Tecnologías</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <main>
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <img src="assets/img/FotoPerfil.jpg" alt="Foto de perfil de José Adrián" class="profile-pic">
+        <p style="line-height: 1.75;">
+          Hola, soy <strong>José Adrián</strong>, estudiante de la ESPOL. 
+          Con interés en el desarrollo de páginas web y aplicaciones, donde puedo compartir mis conocimientos y fortalecer mis habilidades de comunicación y enseñanza. 
+          Estoy abierto a nuevos desafíos que me permitan crecer profesionalmente, desarrollar mis capacidades técnicas y potenciar mis habilidades blandas, siempre con el objetivo de aportar valor y seguir aprendiendo.
+        </p>
+      </section>
+
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyectos-grid">
+          <div class="card">
+            <h3>Proyecto 1: Tic Tac Toe</h3>
+            <p>Aplicación móvil para jugar Tres en Raya. Desarrollada en Android Studio.</p>
+            <p><a href="https://github.com/cimontesm/ED_P1_Grupo06.git" target="_blank">Ver Repositorio</a></p>
+          </div>
+          <div class="card">
+            <h3>Proyecto 2: Análisis de Radiografías con IA</h3>
+            <p>App con IA para analizar radiografías. Usando React, Node.js, Python, Firebase.</p>
+            <p><a href="https://github.com/LockHurb/Bones-Bytes.git" target="_blank">Ver Repositorio</a></p>
+          </div>
+          <div class="card">
+            <h3>Proyecto 3: BlackJack con CV</h3>
+            <p>Juego de BlackJack con reconocimiento de cartas en tiempo real (OpenCV, YOLOV8).</p>
+            <p><a href="https://github.com/vicmmoraM/BlackJackProject.git" target="_blank">Ver Repositorio</a></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tecnologias" style="line-height: 1.5;">
+        <h2>Tecnologías y Herramientas</h2>
+        <ul class="tecnologias">
+          <li><strong>React:</strong> Interfaces web interactivas.</li>
+          <li><strong>JavaScript:</strong> Programación web y lógica.</li>
+          <li><strong>HTML:</strong> Estructura web semántica.</li>
+          <li><strong>C:</strong> Programación estructurada.</li>
+          <li><strong>Java:</strong> Programación Orientada a Objetos.</li>
+          <li><strong>Python:</strong> Automatización y análisis de datos.</li>
+        </ul>
+      </section>
+    </main>
+
+    <aside>
+      <section id="links">
+        <h2>Enlaces</h2>
+        <a href="https://github.com/arzel01" target="_blank">
+          <img src="assets/img/github.png" width="20" height="20"> Arzel01
+        </a>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/josé-adrián-fierro-b82b04296" target="_blank">
+          <img src="assets/img/linkedin.png" width="20" height="20"> José Adrián Fierro
+        </a>
+      </section>
+
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul style="line-height: 2;">
+          <li>Pensamiento crítico y creativo</li>
+          <li>Curiosidad y aprendizaje continuo</li>
+          <li>Resiliencia</li>
+          <li>Motivación y autoconocimiento</li>
+          <li>Fiabilidad y atención al detalle</li>
+        </ul>
+      </section>
+
+      <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <p>Estudiando en ESPOL, Guayaquil.</p>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.054817739507!2d-79.96918838524495!3d-2.144869998436585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d733159932d69%3A0x67a8e73e9e3b3c6!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1668021153835!5m2!1ses!2sec" 
+          width="100%" 
+          height="250" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </section>
+
+  <section id="contacto"> 
+    <h2>Contacto</h2> 
+    <form action="#" method="POST">
+      <div class="form-group"> 
+        <label for="nombre">Nombre:</label> 
+        <input type="text" id="nombre" name="nombre" required> 
+      </div> 
+      <div class="form-group"> 
+        <label for="email">Email:</label> 
+        <input type="email" id="email" name="email" required> 
+      </div> 
+      <div class="form-group"> 
+        <label for="mensaje">Mensaje:</label> 
+        <textarea id="mensaje" name="mensaje" rows="4"></textarea> 
+      </div> 
+      <button type="submit" class="btn">Enviar Mensaje</button> 
+    </form> 
+  </section>
+    </aside>
+
+  </div> <footer>
+    <p>&copy; José Adrián | Curriculum Vitae</p>
+  </footer>
+
+</body>
+</html>
